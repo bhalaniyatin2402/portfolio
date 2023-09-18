@@ -1,0 +1,68 @@
+@import "../../mixins.scss";
+
+.about {
+  .skills {
+    h1 {
+      font-size: 30px;
+      text-align: center;
+      letter-spacing: 3px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    .layout {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      gap: 5px;
+      flex-wrap: wrap;
+      @include sm {
+        padding: 20px 60px;
+      }
+      @include md {
+        padding: 20px 100px;
+      }
+    }
+  }
+
+  .education {
+    h1 {
+      font-size: 30px;
+      text-align: center;
+      letter-spacing: 3px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    .layout {
+      display: flex;
+      flex-direction: column;
+      max-width: 700px;
+      margin: auto;
+      .diploma,
+      .bachelor {
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        @include sm {
+          padding: 20px;
+          margin-bottom: 20px;
+        }
+        h3 {
+          font-size: 17px;
+          font-weight: bold;
+          margin-bottom: 7px;
+          @include sm {
+            font-size: 22px;
+          }
+        }
+        p {
+          font-size: 13px;
+          font-weight: bold;
+          margin-bottom: 3px;
+          @include sm {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}

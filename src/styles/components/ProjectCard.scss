@@ -1,0 +1,65 @@
+@import "../../mixins.scss";
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 500px;
+  background-color: white;
+  img {
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  h2 {
+    font-size: 19px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    @include lg {
+      font-size: 23px;
+      margin-bottom: 5px;
+    }
+  }
+  p {
+    font-size: 13px;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    @include lg {
+      height: 37px;
+      font-size: 16px;
+    }
+  }
+  .technologies {
+    display: flex;
+    gap: 10px;
+    svg {
+      font-size: 20px;
+    }
+    @include lg {
+      margin-bottom: 8px;
+      gap: 15px;
+      svg {
+        font-size: 30px;
+      }
+    }
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 20px;
+    .github {
+      font-size: 20px;
+    }
+    .visit {
+      a {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        color: blue;
+      }
+    }
+  }
+}
