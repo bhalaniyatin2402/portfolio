@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import ProjectCard from "../components/projectCard";
+import ProjectCard from "../components/ProjectCard";
 import {
   templates,
   reactProject,

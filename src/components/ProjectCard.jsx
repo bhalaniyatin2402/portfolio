@@ -1,5 +1,5 @@
-import "../styles/components/ProjectCard.scss";
 import { Icon } from "@iconify/react";
+import "../styles/components/ProjectCard.scss";
 
 function ProjectCard({ data }) {
   return (

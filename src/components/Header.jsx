@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import CustomLink from "./CustomLink";
 import { Icon } from "@iconify/react";
+
+import CustomLink from "./CustomLink";
 import useThemeSwitcher from "../hooks/useThemeSwitcher";
 import "../styles/components/Header.scss";
 
