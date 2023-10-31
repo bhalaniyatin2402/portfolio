@@ -1,9 +1,12 @@
 import Layout from "../components/Layout";
 import ProjectCard from "../components/projectCard";
-import { templates } from "../data";
-import { reactProject } from "../data";
-import { backendProjects } from "../data";
-import { tailwindCss } from "../data";
+import {
+  templates,
+  reactProject,
+  backendProjects,
+  tailwindCss,
+  mernProject,
+} from "../data";
 import "../styles/pages/Projects.scss";
 
 function Projects() {
@@ -13,6 +16,15 @@ function Projects() {
         <h1>Templates</h1>
         <Layout>
           {templates.map((item) => (
+            <ProjectCard data={item} key={item.name} />
+          ))}
+        </Layout>
+      </section>
+
+      <section className="tailwind-css">
+        <h1>Tailwind css</h1>
+        <Layout>
+          {tailwindCss.map((item) => (
             <ProjectCard data={item} key={item.name} />
           ))}
         </Layout>
@@ -36,10 +48,10 @@ function Projects() {
         </Layout>
       </section>
 
-      <section className="tailwind-css">
-        <h1>Tailwind css</h1>
+      <section className="mern-project">
+        <h1>Mern Stack</h1>
         <Layout>
-          {tailwindCss.map((item) => (
+          {mernProject.map((item) => (
             <ProjectCard data={item} key={item.name} />
           ))}
         </Layout>

@@ -58,7 +58,7 @@ function Header() {
           >
             <Icon icon="skill-icons:linkedin" />
           </a>
-          <a href="#" target="_blank">
+          <a href="https://www.instagram.com/yatin_bhalani/" target="_blank">
             <Icon icon="skill-icons:instagram" />
           </a>
 

@@ -10,9 +10,9 @@ export const data = [
     bgColor: "#2D80Bd57",
   },
   {
-    name: "scss",
-    icon: "vscode-icons:file-type-scss2",
-    bgColor: "#CC669957",
+    name: "Javascript",
+    icon: "logos:javascript",
+    bgColor: "#F7DF1E57",
   },
   {
     name: "Tailwind CSS",
@@ -20,14 +20,19 @@ export const data = [
     bgColor: "#23BCBC57",
   },
   {
-    name: "Javascript",
-    icon: "logos:javascript",
-    bgColor: "#F7DF1E57",
+    name: "scss",
+    icon: "vscode-icons:file-type-scss2",
+    bgColor: "#CC669957",
   },
   {
     name: "Git",
     icon: "devicon:git",
     bgColor: "#F34F2957",
+  },
+  {
+    name: "github",
+    icon: "skill-icons:github-light",
+    bgColor: "#00000057",
   },
   {
     name: "React JS",
@@ -90,7 +95,7 @@ export const reactProject = [
     name: "streamy",
     description:
       "streamy for details and videos of movies & tv shows using tmdb api",
-    link: "",
+    link: "https://streamy-movie-tv.netlify.app/",
     githubLink: "https://github.com/bhalaniyatin2402/Streamy/tree/_tests_",
     technologies: [
       "devicon:react",
@@ -105,8 +110,8 @@ export const reactProject = [
   {
     name: "portfolio",
     description: "my personal portfolio for showing my skils and all projects",
-    link: "",
-    githubLink: "",
+    link: "https://yatin-bhalani.netlify.app/",
+    githubLink: "https://github.com/bhalaniyatin2402/portfolio",
     technologies: [
       "devicon:react",
       "skill-icons:tailwindcss-dark",
@@ -129,7 +134,7 @@ export const backendProjects = [
     name: "PWSkills_Blog",
     description: "bloging app for reading and writing blogs",
     link: "",
-    githubLink: "#",
+    githubLink: "https://github.com/bhalaniyatin2402/blog_app",
     technologies: [
       "logos:nodejs",
       "devicon:express",
@@ -144,9 +149,31 @@ export const tailwindCss = [
   {
     name: "Trustco",
     description: "fully responsive template using tailwind css only",
-    link: "",
-    githubLink: "",
+    link: "https://trustco-template.netlify.app/",
+    githubLink: "https://github.com/bhalaniyatin2402/tailwind_css",
     technologies: ["devicon:react", "skill-icons:tailwindcss-dark"],
     image: "./trustco.png",
+  },
+];
+
+export const mernProject = [
+  {
+    name: "Coursify",
+    description: "creatig a learning management system using mern stack",
+    link: "https://lms-coursify.vercel.app/",
+    githubLink: "https://github.com/bhalaniyatin2402/LMS",
+    technologies: [
+      "logos:nodejs",
+      "skill-icons:expressjs-light",
+      "skill-icons:mongodb",
+      "devicon:react",
+      "devicon:redux",
+      "skill-icons:tailwindcss-dark",
+      "logos:cloudinary-icon",
+      // "logos:daisyui",
+      // "simple-icons:jsonwebtokens",
+      // "simple-icons:razorpay",
+    ],
+    image: "./coursify.PNG",
   },
 ];
