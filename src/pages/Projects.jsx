@@ -7,7 +7,7 @@ import {
   tailwindCss,
   mernProject,
 } from "../data";
-import "../styles/pages/Projects.scss";
+import "../styles/pages/Project.scss";
 
 function Projects() {
   return (
