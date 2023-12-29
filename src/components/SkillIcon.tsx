@@ -1,7 +1,13 @@
 import { Icon } from "@iconify/react";
 import "../styles/components/SkillIcon.scss";
 
-function SkillIcon({ name, icon, bgColor }) {
+import { IconDetail } from "../data";
+
+interface SkillIconType extends IconDetail {
+  key: string;
+}
+
+function SkillIcon({ name, icon, bgColor }: SkillIconType) {
   return (
     <div className={`skill`}>
       <span className="icon" style={{ backgroundColor: bgColor }}>

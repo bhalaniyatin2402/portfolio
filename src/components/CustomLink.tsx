@@ -1,8 +1,11 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
-function CustomLink({ href, title }) {
+interface CustomLinkType {
+  href: string;
+  title: string;
+}
+
+function CustomLink({ href, title }: CustomLinkType) {
   const location = useLocation();
 
   return (

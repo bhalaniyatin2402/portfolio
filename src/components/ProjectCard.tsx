@@ -1,7 +1,15 @@
 import { Icon } from "@iconify/react";
+
 import "../styles/components/ProjectCard.scss";
 
-function ProjectCard({ data }) {
+import { ProjectDetail } from "../data";
+
+type ProjectCardType = {
+  data: ProjectDetail;
+  key: string;
+};
+
+function ProjectCard({ data }: ProjectCardType) {
   return (
     <div className="project-card text-dark shadow-md shadow-dark dark:shadow-light">
       <img src={data.image} alt="" className="" />
