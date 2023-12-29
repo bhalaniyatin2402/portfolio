@@ -1,4 +1,23 @@
-export const data = [
+export interface IconDetail {
+  name: string,
+  icon: string,
+  bgColor: string
+}
+
+export interface ProjectDetail {
+  name: string,
+  description: string,
+  link: string,
+  githubLink: string,
+  technologies: string[],
+  image: string
+}
+
+type IconData = Array<IconDetail>
+
+type ProjectList = Array<ProjectDetail>
+
+export const data: IconData = [
   {
     name: "HTML",
     icon: "vscode-icons:file-type-html",
@@ -55,7 +74,7 @@ export const data = [
     bgColor: "#12924F57",
   },
   {
-    name: "Redux",
+    name: "Redux Toolkit",
     icon: "devicon:redux",
     bgColor: "#764ABC57",
   },
@@ -71,7 +90,7 @@ export const data = [
   },
 ];
 
-export const templates = [
+export const templates: ProjectList = [
   {
     name: "beast",
     description: "responsive template of beast using html and css only",
@@ -90,7 +109,7 @@ export const templates = [
   },
 ];
 
-export const reactProject = [
+export const reactProject: ProjectList = [
   {
     name: "streamy",
     description:
@@ -121,7 +140,7 @@ export const reactProject = [
   },
 ];
 
-export const backendProjects = [
+export const backendProjects: ProjectList = [
   {
     name: "authentication",
     description: "user authentication incliding user profile and mailing",
@@ -145,7 +164,7 @@ export const backendProjects = [
   },
 ];
 
-export const tailwindCss = [
+export const tailwindCss: ProjectList = [
   {
     name: "Trustco",
     description: "fully responsive template using tailwind css only",
@@ -156,7 +175,7 @@ export const tailwindCss = [
   },
 ];
 
-export const mernProject = [
+export const mernProject: ProjectList = [
   {
     name: "Coursify",
     description: "creatig a learning management system using mern stack",

@@ -7,8 +7,8 @@ import useThemeSwitcher from "../hooks/useThemeSwitcher";
 import "../styles/components/Header.scss";
 
 function Header() {
-  const [show, setShow] = useState(false);
-  const [mode, setMode] = useThemeSwitcher();
+  const [show, setShow] = useState<boolean>(false);
+  const { mode, switchMode } = useThemeSwitcher();
   const location = useLocation();
 
   useEffect(() => {
@@ -65,7 +65,7 @@ function Header() {
 
           <span
             className="my-auto bg-dark text-light rounded-full p-[2px]"
-            onClick={() => setMode(mode === "light" ? "dark" : "light")}
+            onClick={() => switchMode(mode)}
           >
             {mode == "dark" ? (
               <Icon
