@@ -6,25 +6,17 @@ import {
   backendProjects,
   tailwindCss,
   mernProject,
+  reactNext,
 } from "../data";
 import "../styles/pages/Project.scss";
 
 function Projects() {
   return (
     <main className="projects bg-light dark:bg-dark text-dark dark:text-light">
-      <section className="templates">
-        <h1>Templates</h1>
+      <section className="mern-project">
+        <h1>Mern Stack</h1>
         <Layout>
-          {templates.map((item) => (
-            <ProjectCard data={item} key={item.name} />
-          ))}
-        </Layout>
-      </section>
-
-      <section className="tailwind-css">
-        <h1>Tailwind css</h1>
-        <Layout>
-          {tailwindCss.map((item) => (
+          {mernProject.map((item) => (
             <ProjectCard data={item} key={item.name} />
           ))}
         </Layout>
@@ -39,6 +31,15 @@ function Projects() {
         </Layout>
       </section>
 
+      <section className="react-next">
+        <h1>React-NextJs</h1>
+        <Layout>
+          {reactNext.map((item) => (
+            <ProjectCard data={item} key={item.name} />
+          ))}
+        </Layout>
+      </section>
+
       <section className="backend">
         <h1>Backend + Database</h1>
         <Layout>
@@ -48,10 +49,19 @@ function Projects() {
         </Layout>
       </section>
 
-      <section className="mern-project">
-        <h1>Mern Stack</h1>
+      <section className="templates">
+        <h1>Templates</h1>
         <Layout>
-          {mernProject.map((item) => (
+          {templates.map((item) => (
+            <ProjectCard data={item} key={item.name} />
+          ))}
+        </Layout>
+      </section>
+
+      <section className="tailwind-css">
+        <h1>Tailwind css</h1>
+        <Layout>
+          {tailwindCss.map((item) => (
             <ProjectCard data={item} key={item.name} />
           ))}
         </Layout>

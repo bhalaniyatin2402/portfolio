@@ -19,41 +19,6 @@ type ProjectList = Array<ProjectDetail>
 
 export const data: IconData = [
   {
-    name: "HTML",
-    icon: "vscode-icons:file-type-html",
-    bgColor: "#F0652A57",
-  },
-  {
-    name: "CSS",
-    icon: "vscode-icons:file-type-css",
-    bgColor: "#2D80Bd57",
-  },
-  {
-    name: "Javascript",
-    icon: "logos:javascript",
-    bgColor: "#F7DF1E57",
-  },
-  {
-    name: "Tailwind CSS",
-    icon: "skill-icons:tailwindcss-dark",
-    bgColor: "#23BCBC57",
-  },
-  {
-    name: "scss",
-    icon: "vscode-icons:file-type-scss2",
-    bgColor: "#CC669957",
-  },
-  {
-    name: "Git",
-    icon: "devicon:git",
-    bgColor: "#F34F2957",
-  },
-  {
-    name: "github",
-    icon: "skill-icons:github-light",
-    bgColor: "#00000057",
-  },
-  {
     name: "React JS",
     icon: "devicon:react",
     bgColor: "#61DAFB45",
@@ -74,20 +39,65 @@ export const data: IconData = [
     bgColor: "#12924F57",
   },
   {
+    name: "Javascript",
+    icon: "logos:javascript",
+    bgColor: "#F7DF1E57",
+  },
+  {
+    name: "Git",
+    icon: "devicon:git",
+    bgColor: "#F34F2957",
+  },
+  {
+    name: "github",
+    icon: "skill-icons:github-light",
+    bgColor: "#00000057",
+  },
+  {
     name: "Redux Toolkit",
     icon: "devicon:redux",
     bgColor: "#764ABC57",
   },
   {
-    name: "React testng ibrary",
-    icon: "logos:testing-library",
-    bgColor: "#B5232457",
+    name: "HTML",
+    icon: "vscode-icons:file-type-html",
+    bgColor: "#F0652A57",
   },
   {
-    name: "Vitest",
-    icon: "vscode-icons:file-type-vitest",
-    bgColor: "#FCC72B57",
+    name: "CSS",
+    icon: "vscode-icons:file-type-css",
+    bgColor: "#2D80Bd57",
   },
+  {
+    name: "Tailwind CSS",
+    icon: "skill-icons:tailwindcss-dark",
+    bgColor: "#23BCBC57",
+  },
+  {
+    name: "scss",
+    icon: "vscode-icons:file-type-scss2",
+    bgColor: "#CC669957",
+  },
+  // {
+  //   name: "Next Js",
+  //   icon: "skill-icons:nextjs-light",
+  //   bgColor: "#00000057",
+  // },
+  // {
+  //   name: "Typescript",
+  //   icon: "logos:typescript-icon",
+  //   bgColor: "#3178C657",
+  // },
+  // {
+  //   name: "React testng ibrary",
+  //   icon: "logos:testing-library",
+  //   bgColor: "#B5232457",
+  // },
+  // {
+  //   name: "Vitest",
+  //   icon: "vscode-icons:file-type-vitest",
+  //   bgColor: "#FCC72B57",
+  // },
 ];
 
 export const templates: ProjectList = [
@@ -99,13 +109,21 @@ export const templates: ProjectList = [
     technologies: ["vscode-icons:file-type-html", "vscode-icons:file-type-css"],
     image: "./beast.png",
   },
+  // {
+  //   name: "real_estate",
+  //   description: "real estate responsive template using html and css only",
+  //   link: "https://bhalaniyatin2402.github.io/real_estate/",
+  //   githubLink: "https://github.com/bhalaniyatin2402/real_estate",
+  //   technologies: ["vscode-icons:file-type-html", "vscode-icons:file-type-css"],
+  //   image: "./real_estate.png",
+  // },
   {
-    name: "real_estate",
-    description: "real estate responsive template using html and css only",
-    link: "https://bhalaniyatin2402.github.io/real_estate/",
-    githubLink: "https://github.com/bhalaniyatin2402/real_estate",
-    technologies: ["vscode-icons:file-type-html", "vscode-icons:file-type-css"],
-    image: "./real_estate.png",
+    name: "zaap",
+    description: "zaap responsive template using react and typescript",
+    link: "https://zaap-template.vercel.app/",
+    githubLink: "https://github.com/bhalaniyatin2402/zaap-template",
+    technologies: ["devicon:react", "skill-icons:nextjs-light", "logos:typescript-icon", "skill-icons:tailwindcss-dark"],
+    image: "./zaap.PNG",
   },
 ];
 
@@ -191,5 +209,16 @@ export const mernProject: ProjectList = [
       "logos:cloudinary-icon",
     ],
     image: "./coursify.PNG",
+  },
+];
+
+export const reactNext: ProjectList = [
+  {
+    name: "adiba",
+    description: "creating a adiba frontend project using react with next-js and typescript",
+    link: "",
+    githubLink: "https://github.com/bhalaniyatin2402/adiba",
+    technologies: ["devicon:react", "skill-icons:nextjs-light", "logos:typescript-icon", "skill-icons:tailwindcss-dark"],
+    image: "./adiba.PNG",
   },
 ];

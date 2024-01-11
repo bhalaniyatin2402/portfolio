@@ -3,10 +3,12 @@ import CustomRoutes from "./routes/CustomRoutes";
 
 function App() {
   return (
-    <>
-      <Header />
-      <CustomRoutes />
-    </>
+    <div className="w-[100%] bg-light dark:bg-dark">
+      <div className="w-[100%] max-w-[1350px] mx-auto">
+        <Header />
+        <CustomRoutes />
+      </div>
+    </div>
   );
 }
 
