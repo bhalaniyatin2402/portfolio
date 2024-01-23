@@ -210,6 +210,22 @@ export const mernProject: ProjectList = [
     ],
     image: "./coursify.PNG",
   },
+  {
+    name: "Pixabay",
+    description: "creatig a learning management system using mern stack",
+    link: "https://pixabay-clone-pi.vercel.app/",
+    githubLink: "https://github.com/bhalaniyatin2402/pixabay_clone",
+    technologies: [
+      "logos:nodejs",
+      "skill-icons:expressjs-light",
+      "skill-icons:mongodb",
+      "devicon:react",
+      "devicon:redux",
+      "skill-icons:tailwindcss-dark",
+      "skill-icons:materialui-light"
+    ],
+    image: "./pixabay-clone.PNG",
+  },
 ];
 
 export const reactNext: ProjectList = [

@@ -6,7 +6,6 @@ import {
   backendProjects,
   tailwindCss,
   mernProject,
-  reactNext,
 } from "../data";
 import "../styles/pages/Project.scss";
 
@@ -31,14 +30,14 @@ function Projects() {
         </Layout>
       </section>
 
-      <section className="react-next">
+      {/* <section className="react-next">
         <h1>React-NextJs</h1>
         <Layout>
           {reactNext.map((item) => (
             <ProjectCard data={item} key={item.name} />
           ))}
         </Layout>
-      </section>
+      </section> */}
 
       <section className="backend">
         <h1>Backend + Database</h1>
