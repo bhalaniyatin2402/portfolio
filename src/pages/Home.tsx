@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import MernStackImage from "../../public/mern_stack.png";
-import Resume from "../../public/resume.pdf";
+import Resume from "../../public/yatin-bhalani-resume.pdf";
 import "../styles/pages/Home.scss";
 
 function Home() {

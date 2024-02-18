@@ -23,39 +23,6 @@ function About() {
       </section>
 
       <section className="education">
-        <h1 className="text-dark dark:text-light">Experience</h1>
-        <Layout>
-          <div className="diploma bg-[#bbb9b9]">
-            <h3 className="text-dark text-center">Devoq Design</h3>
-            <h4 className="text-dark font-semibold text-lg">
-              React Developer - Intern
-            </h4>
-            <p className="text-orange-800">Jul/2023-Sep2023</p>
-            <p className="text-dark font-extralight text-base">
-              completed 3 months of internship in react and redux-toolkit,
-              Applied expertise in creating responsive and visually appealing
-              user interfaces for dynamic web applications.
-            </p>
-          </div>
-          <div className="diploma bg-[#bbb9b9]">
-            <h3 className="text-dark text-center">Devoq Design</h3>
-            <h4 className="text-dark font-semibold text-lg">
-              Mern Stack Developer
-            </h4>
-            <span className="text-dark font-semibold">
-              from:
-              <span className="text-orange-800"> Sep/2023</span>
-            </span>
-            <p className="text-dark font-extralight text-base">
-              Currently excelling role as a full stack Developer, specializing
-              in react Js, node Js Express js and MongoDB and learning Next.js
-              and TypeScript to add in my skill set.
-            </p>
-          </div>
-        </Layout>
-      </section>
-
-      <section className="education">
         <h1 className="text-dark dark:text-light">Education</h1>
         <Layout>
           <div className="diploma bg-[#bbb9b9]">
