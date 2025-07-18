@@ -107,7 +107,7 @@ export const templates: ProjectList = [
     link: "https://bhalaniyatin2402.github.io/beast/",
     githubLink: "https://github.com/bhalaniyatin2402/beast",
     technologies: ["vscode-icons:file-type-html", "vscode-icons:file-type-css"],
-    image: "./beast.png",
+    image: "/beast.png",
   },
   // {
   //   name: "real_estate",
@@ -123,7 +123,7 @@ export const templates: ProjectList = [
     link: "https://zaap-template.vercel.app/",
     githubLink: "https://github.com/bhalaniyatin2402/zaap-template",
     technologies: ["devicon:react", "skill-icons:nextjs-light", "logos:typescript-icon", "skill-icons:tailwindcss-dark"],
-    image: "./zaap.PNG",
+    image: "/zaap.PNG",
   },
 ];
 
@@ -142,7 +142,7 @@ export const reactProject: ProjectList = [
       "vscode-icons:file-type-vitest",
       "logos:msw",
     ],
-    image: "./streamy.png",
+    image: "/streamy.png",
   },
   {
     name: "portfolio",
@@ -154,7 +154,7 @@ export const reactProject: ProjectList = [
       "skill-icons:tailwindcss-dark",
       "vscode-icons:file-type-scss2",
     ],
-    image: "./portfolio.png",
+    image: "/portfolio.png",
   },
 ];
 
@@ -165,7 +165,7 @@ export const backendProjects: ProjectList = [
     link: "",
     githubLink: "https://github.com/bhalaniyatin2402/user_authentication",
     technologies: ["logos:nodejs", "devicon:express", "skill-icons:mongodb"],
-    image: "./user_authentication.png",
+    image: "/user_authentication.png",
   },
   {
     name: "PWSkills_Blog",
@@ -178,7 +178,7 @@ export const backendProjects: ProjectList = [
       "skill-icons:mongodb",
       '<Icon icon="logos:cloudinary-icon" />',
     ],
-    image: "./blog.png",
+    image: "/blog.png",
   },
 ];
 
@@ -189,7 +189,7 @@ export const tailwindCss: ProjectList = [
     link: "https://trustco-template.netlify.app/",
     githubLink: "https://github.com/bhalaniyatin2402/tailwind_css",
     technologies: ["devicon:react", "skill-icons:tailwindcss-dark"],
-    image: "./trustco.png",
+    image: "/trustco.png",
   },
 ];
 
@@ -208,7 +208,7 @@ export const mernProject: ProjectList = [
       "skill-icons:tailwindcss-dark",
       "logos:cloudinary-icon",
     ],
-    image: "./coursify.PNG",
+    image: "/coursify.PNG",
   },
   {
     name: "Pixabay",
@@ -224,7 +224,7 @@ export const mernProject: ProjectList = [
       "skill-icons:tailwindcss-dark",
       "skill-icons:materialui-light"
     ],
-    image: "./pixabay-clone.PNG",
+    image: "/pixabay-clone.PNG",
   },
 ];
 
@@ -235,6 +235,6 @@ export const reactNext: ProjectList = [
     link: "",
     githubLink: "https://github.com/bhalaniyatin2402/adiba",
     technologies: ["devicon:react", "skill-icons:nextjs-light", "logos:typescript-icon", "skill-icons:tailwindcss-dark"],
-    image: "./adiba.PNG",
+    image: "/adiba.PNG",
   },
 ];
